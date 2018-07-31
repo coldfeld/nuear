@@ -7,64 +7,71 @@
     tools:context=".MainActivity">
 
     <ImageButton
-        android:id="@+id/imageButton11"
+        android:id="@+id/solfa_button"
         android:layout_width="298dp"
         android:layout_height="98dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:background="@android:color/transparent"
+        android:contentDescription="@string/solfa"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintTop_toBottomOf="@+id/chrom_button"
         app:srcCompat="@drawable/dictdark" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="311dp"
-        android:layout_height="98dp"
+        android:id="@+id/chrom_button"
+        android:layout_width="299dp"
+        android:layout_height="99dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:background="@android:color/transparent"
+        android:contentDescription="@string/chromatism"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/scales_button"
         app:srcCompat="@drawable/hrom" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/settings_button"
         android:layout_width="55dp"
         android:layout_height="55dp"
         android:layout_marginBottom="16dp"
         android:layout_marginEnd="16dp"
         android:background="@android:color/transparent"
+        android:contentDescription="@string/settings_button"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/ic_settings" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/info_button"
         android:layout_width="55dp"
         android:layout_height="55dp"
         android:layout_marginBottom="16dp"
         android:layout_marginStart="16dp"
         android:background="@android:color/transparent"
+        android:contentDescription="@string/info_button"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/ic_info" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/scales_button"
         android:layout_width="298dp"
-        android:layout_height="103dp"
+        android:layout_height="99dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="108dp"
         android:background="@android:color/transparent"
+        android:contentDescription="@string/scales"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
