@@ -6,32 +6,49 @@
     android:layout_height="match_parent"
     tools:context=".settings">
 
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="43dp"
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/lang_setting"
+        android:layout_width="330dp"
+        android:layout_height="58dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimary"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="198dp"
-            android:layout_height="match_parent"
-            android:layout_gravity="fill_vertical"
-            android:text="sas"
-            android:textAlignment="gravity" />
-
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="157dp"
-            android:layout_height="match_parent"
-            android:layout_gravity="right"
-            android:scaleType="fitCenter"
-            android:src="@drawable/flag-400"
-            android:visibility="visible" />
-    </android.support.v7.widget.CardView>
+            android:layout_width="53dp"
+            android:layout_height="37dp"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/fag"
+            android:src="@drawable/flag400"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/lang"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:typeface="serif"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
 </android.support.constraint.ConstraintLayout>
