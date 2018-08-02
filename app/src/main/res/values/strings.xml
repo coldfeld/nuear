@@ -7,4 +7,5 @@
     <string name="info_button">info_button</string>
     <string name="title_activity_info_activity">info_activity</string>
     <string name="title_activity_settings">settings</string>
+    <string name="switch1">switch1</string>
 </resources>
