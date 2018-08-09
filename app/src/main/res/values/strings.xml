@@ -10,4 +10,8 @@
     <string name="switch1">switch1</string>
     <string name="lang">Текущий язык:</string>
     <string name="fag">flag</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="frag1_text">sas???</string>
+    <string name="log">SAS</string>
 </resources>

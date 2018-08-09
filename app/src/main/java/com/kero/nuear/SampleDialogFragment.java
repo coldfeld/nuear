@@ -1,14 +1,19 @@
 package com.kero.nuear;
 
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 
 import fr.tvbarthel.lib.blurdialogfragment.BlurDialogFragment;
 
 public class SampleDialogFragment extends BlurDialogFragment {
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        ...
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        View v = inflater.inflate(R.layout.fragment_blank, null);
+        return v;
     }
 
     @Override
